@@ -1,41 +1,46 @@
-                                                                   Python OOP Assignment
+#****************************************************************Python OOP Assignment****************************************************************************************
 
-
+"""
 Q1. What is the purpose of Python's OOP?
 
 Ans:
 Python's Object-Oriented Programming (OOP) provides a way to organise code into reusable objects, promoting modularity and code reusability. It simplifies code organisation and enables abstraction, encapsulation, inheritance, and polymorphism.
-
-
+"""
+"""
 Q2. Where does an inheritance search look for an attribute?
 Ans:
 In Python, the inheritance search for an attribute looks first in the instance itself and then in the class and its superclasses.
 
-
+"""
+"""
 Q3. How do you distinguish between a class object and an instance object?
 Ans:
 a class object defines the structure and behaviour of the class, while an instance object is a concrete representation of that class with its own unique data and state. Class objects are used to define the blueprint, and instance objects are created from that blueprint with specific attributes and behaviour.
+""""
 
+""""
 Q4. What makes the first argument in a class’s method function special?
 Ans:
 The first argument in a class's method function (conventionally named self) is special because it automatically refers to the instance object on which the method is being called. It allows the method to access and manipulate the instance's attributes and behaviour.
+"""
 
+"""
 Q5. What is the purpose of the init method?
 Ans:
 The __init__ method in Python is used to initialise the attributes of an instance when it is created. It allows you to set the initial state of the object and perform any necessary setup or initialization tasks.
-
-
+"""
+"""
 Q6. What is the process for creating a class instance?
 Ans:
 The process for creating a class instance involves defining the class, implementing the __init__ method for initialization, creating an instance of the class using the class name, and then accessing the instance's attributes and methods as needed.
-
-
-
+"""
+"""
 Q7. What is the process for creating a class?
 Ans:
 The process for creating a class in Python involves defining the class using the 'class' keyword, specifying attributes and methods within the class, and creating instances of the class by calling the class name followed by parentheses.
-	
+"""	
 
+"""
 Q8. How would you define the superclasses of a class?
 Ans:
 To define the superclasses of a class in Python:
@@ -149,8 +154,7 @@ To pass optional or keyword parameters from one function to another, you can use
 Q30. What are Lambda Functions?
 Ans:
 Lambda functions, also known as anonymous functions, are small, inline functions in Python that are defined without a name. They are created using the lambda keyword and are typically used for simple, one-line expressions or small utility functions. Lambda functions are often used in functional programming paradigms or situations where a function is needed as an argument to another function.
-
-
+"""
 """
 Q31. Explain Inheritance in Python with an example?
 Ans:
